@@ -41,8 +41,17 @@
             }
             int frequency1 = LinkedHashMap.Get("paranoid");
             Console.WriteLine(frequency1);
+            //uc3
+            LinkedHashMap.Remove("avoidable");
+            int frequency2 = LinkedHashMap.Get("avoidable");
+
+            Console.WriteLine(frequency2);
 
 
         }
     }
 }
+//Welcome to Data Structure Problem Using Generics
+//2
+//3
+//0
